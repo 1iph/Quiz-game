@@ -24,7 +24,11 @@ body{
     overflow: hidden;
     position: relative;
 }
-
+#start-screen .cheat{
+    margin-top: 10px;
+    font-size: 14px;
+    color:#9e9e9e
+}
 /* SCREENS */
 .screen{
   display: none;

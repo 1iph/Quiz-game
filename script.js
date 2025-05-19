@@ -98,12 +98,12 @@ const quizQuestions = [
     ],
   },
   {
-    question: "What is the most spoken language in the world?",
+    question: "What gas is most abundant in the Earth's atmosphere?",
     answers: [
-      { text: "English", correct: false },
-      { text: "Spanish", correct: false },
-      { text: "Mandarin Chinese", correct: true },
-      { text: "Hindi", correct: false },
+      { text: "Helium", correct: false },
+      { text: "Oxygen", correct: false },
+      { text: "Nitrogen", correct: true },
+      { text: "Farts", correct: false },
     ],
   },
   {
@@ -118,10 +118,37 @@ const quizQuestions = [
   {
     question: "What is the smallest bone in the human body?",
     answers: [
-      { text: "incus", correct: false },
-      { text: "Xiphoid process", correct: false },
+      { text: "Incus", correct: false },
       { text: "Stapes", correct: true },
+      { text: "Xiphoid Process", correct: false },
       { text: "Coccyx", correct: false },
+    ],
+  },
+  {
+    question: "What is the rarest blood type?",
+    answers: [
+      { text: "B", correct: false },
+      { text: "X", correct: false },
+      { text: "O-", correct: false },
+      { text: "AB-", correct: true },
+    ],
+  },
+   {
+    question: "Who designed the Eiffel tower?",
+    answers: [
+      { text: "Gustave Eiffel", correct: true },
+      { text: "Pierre Eiffel", correct: false },
+      { text: "Eiffel 65", correct: false },
+      { text: "Jacques Eiffel", correct: false },
+    ],
+  },
+  {
+    question: "What year did world war 2 start?",
+    answers: [
+      { text: "1923", correct: false },
+      { text: "1939", correct: true },
+      { text: "1945", correct: false },
+      { text: "1935", correct: false },
     ],
   },
 ];
